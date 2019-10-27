@@ -64,9 +64,13 @@
                         
                         <?php
                         if(isset($_POST['submit'])) {
+                            $option = $_POST['option'];
                             $name = $_POST['name'];
                             $nim = $_POST['nim']; ?>
                         <div class="card-body text-center"><h2>Your Input:</h2></div>
+                        <div class="form-group">
+                            <input class="form-control form-rounded form-control-lg" type="text" name="option" value="<?php echo $option; ?>" disabled>
+                        </div>
                         <div class="form-group">
                             <input class="form-control form-rounded form-control-lg" type="text" name="name" value="<?php echo $name; ?>" disabled>
                         </div>
@@ -74,9 +78,13 @@
                             <input class="form-control form-rounded form-control-lg" type="text" name="nim" maxlength="10" value="<?php echo $nim; ?>" disabled>
                         </div>
                         <?php } else if(isset($_GET['submit'])) {
+                            $option = $_GET['option'];
                             $name = $_GET['name'];
                             $nim = $_GET['nim']; ?>
                         <div class="card-body text-center"><h2>Your Input:</h2></div>
+                        <div class="form-group">
+                            <input class="form-control form-rounded form-control-lg" type="text" name="option" value="<?php echo $option; ?>" disabled>
+                        </div>
                         <div class="form-group">
                             <input class="form-control form-rounded form-control-lg" type="text" name="name" value="<?php echo $name; ?>" disabled>
                         </div>
