@@ -18,7 +18,7 @@
                                         <input class="form-control form-control-user" type="text" name="name" placeholder="Nama Lengkap" required trim>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control form-control-user" type="number" name="ipk" placeholder="Nilai IPK" min="0.0" max="4.0" step="any" required>
+                                        <input class="form-control form-control-user" type="number" name="ipk" placeholder="Nilai IPK" min="0" max="4" step="any" required>
                                     </div>
                                     <div class="form-group">
                                         <input class="form-control form-control-user" type="number" name="sibling" placeholder="Jumlah Saudara" required>
