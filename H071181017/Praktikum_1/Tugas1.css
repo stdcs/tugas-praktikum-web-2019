@@ -1,0 +1,29 @@
+.form{
+	width: 335px;
+	margin : 50px auto;
+	padding: 100px;
+	border-radius: 5px;
+  background: lightskyblue;
+
+}
+.hasil{
+	width: 335px;
+	padding: 0px;
+  margin:30px auto;
+  text-align: center;
+}
+.nim{
+  padding :0px 0px 0px 90px;
+}
+.nama{
+  padding: 0px 50px 0px 90px;
+}
+.submit{
+  padding: 50px 0px 0px 150px;
+}
+.post{
+  padding: 50px 0px 0px 150px;
+}
+.get{
+  padding: 30px 0px 0px 150px;
+}
