@@ -21,10 +21,10 @@
                                         <input class="form-control form-control-user" type="number" name="ipk" placeholder="Nilai IPK" min="0" max="4" step="any" required>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control form-control-user" type="number" name="sibling" placeholder="Jumlah Saudara" required>
+                                        <input class="form-control form-control-user" type="number" name="sibling" placeholder="Jumlah Saudara" min="0" required>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control form-control-user" type="number" name="income" placeholder="Jumlah Penghasilan" required>
+                                        <input class="form-control form-control-user" type="number" name="income" placeholder="Jumlah Penghasilan" min="0" required>
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-block btn-user btn-success" type="submit" name="btn-submit"><i class="fa fa-upload"></i> Submit</button>
