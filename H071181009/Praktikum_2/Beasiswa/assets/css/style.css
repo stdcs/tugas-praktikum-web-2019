@@ -1,0 +1,30 @@
+.success {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 1100px;
+}
+
+.danger {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 1100px;
+}
+
+.isi {
+    margin: 10px;
+    border-radius: 10px;
+    width: 1100px;
+}
+
+.alert {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+
+.back {
+    margin: 10px;
+    width: 1100px;
+}
