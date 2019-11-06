@@ -9,7 +9,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 py-5">
                 <?php
-                $nama = $_POST['nama'];
+                $nama = htmlspecialchars($_POST['nama']);
                 $ipk = $_POST['ipk'];
                 $jml_saudara = $_POST['jumlah_saudara'];
                 $gaji_ortu = $_POST['gaji_ortu'];
