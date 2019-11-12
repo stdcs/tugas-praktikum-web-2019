@@ -1,5 +1,5 @@
 <?php require_once('include/templates/header.php'); ?>
-<body class="bg-gradient-light" style="background-color: #00FFFF;">
+<body class="bg-gradient-primary">
   <div class="container">
     <!-- Outer Row -->
     <div class="row justify-content-center">
